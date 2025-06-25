@@ -36,30 +36,6 @@ ChoroplethMapper/
 pip install pandas plotly requests
 ```
 
----
-
-## 🚦 Quick Start
-1. **Clone this repo & enter the folder:**
-   ```bash
-   git clone https://github.com/your-username/ChoroplethMapper.git
-   cd ChoroplethMapper
-   ```
-2. **Update datasets (optional, for latest data):**
-   ```bash
-   python update_data.py
-   ```
-3. **Visualize a dataset:**
-   ```bash
-   python choropleth_mapper.py population
-   # or
-   python choropleth_mapper.py covid
-   # or
-   python choropleth_mapper.py temperature
-   ```
-4. **Open `temp-plot.html`** in your browser to view the interactive map!
-
----
-
 ## 📂 Sample Datasets
 **population.csv**
 ```
@@ -97,4 +73,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ---
 
 ## 📄 License
-This project is open source and available under the [MIT License](LICENSE). 
